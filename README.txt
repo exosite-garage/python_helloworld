@@ -30,7 +30,7 @@ edit python script "python_helloworld.py"
 --) log into exosite.com and verify the data sources were updated
 
 ****************************************
-4) tweak it
+3) tweak it
 ****************************************
 --) add a 'print' command or something 
 --) play around, use it, extend it!
