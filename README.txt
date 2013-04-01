@@ -24,7 +24,8 @@ http://www.python.org/ftp/python/2.6.5/python-2.6.5.msi
 edit python script "python_helloworld.py" 
 --) update the default device CIK -> Get your CIK (KEY) from your Portals account
 --) add two data sources to your device in your portals account
------) Data Source 1 should be called 'message', type is string, resource is 'message'-----) Data Source 2 should be called 'number', type is integer, resource is 'number'
+-----) Data Source 1 should be named 'Message', type is string, alias is 'message'-----) Data Source 2 should be named 'Number', type is integer, alias is 'number'
+       NOTE: It is important to provide the alias when creating these data sources, the script will not work without doing this correctly.
 --) run the script (> python python_helloworld.py)
 --) verify the app connects, sends data (no errors should be generated, should see 204 Response), and reads the data back (number = 1, message = hello world!)
 --) log into exosite.com and verify the data sources were updated
